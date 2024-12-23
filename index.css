@@ -432,33 +432,40 @@ html {
   justify-content: center;
   overflow: hidden;
   gap: 32rem;
+  position: relative;
 }
 .second-section .container .animation-box .first-box {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4rem;
-  width: 100%;
+  width: max-content;
 }
 .second-section .container .animation-box .first-box {
   animation: freelancetwo 20s linear 0s infinite normal none running;
 }
-@media(max-width:480px){
+@media (max-width: 480px) {
   .second-section .container .animation-box .first-box {
-    animation: freelancetwo 6s linear 0s infinite normal none running;
+    display: flex; /* Ensures items are aligned in a row */
+    animation: freelancetwo 15s linear infinite; /* Smooth looping */
+    white-space: nowrap; /* Prevents line breaks in animation */
+  }
+
+  .freelance-service {
+    flex-shrink: 0; /* Prevents shrinking during animation */
+    margin: 0 10px; /* Adds spacing between items */
   }
 }
 
 
 @keyframes freelancetwo {
   0% {
-    transform: translateX(65%);
+    transform: translateX(0); /* Start at initial position */
   }
   100% {
-    transform: translateX(-65%);
+    transform: translateX(-50%); /* Move halfway to loop seamlessly */
   }
 }
-
 .second-section .container .animation-box .first-box .freelance-service {
   display: flex;
   flex-direction: column;

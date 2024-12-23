@@ -53,7 +53,7 @@ html {
   display: none; /* Hidden by default */
 }
 
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .navbar .container .menu-toggle {
     display: flex; /* Show the fa-bars icon */
     align-items: center;
@@ -97,7 +97,7 @@ html {
   color: rgb(255, 149, 11);
 }
 
-@media (min-width: 720px) and (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 1024px) {
   .navbar .container .nav-btn {
     display: flex;
     align-items: center;
@@ -105,7 +105,7 @@ html {
     color: rgb(20, 233, 222);
   }
 }
-@media (min-width: 720px) and (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 1024px) {
   .navbar .container .nav-btn .btn-box {
     color: rgb(3, 34, 69);
     background: rgb(20, 233, 222);
@@ -118,7 +118,7 @@ html {
   }
 }
 
-@media (min-width: 720px) and (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 1024px) {
   .navbar .container .nav-btn .btn-box .menuicon {
     font-size: 2.8rem;
   }
@@ -137,7 +137,7 @@ html {
   padding-top: 10rem;
   margin: auto;
 }
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-1 .container {
     display: flex;
     flex-direction: column;
@@ -160,7 +160,7 @@ html {
   justify-content: center;
   gap: 20px;
 }
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .description {
     display: flex;
     flex-direction: column;
@@ -192,7 +192,7 @@ html {
   font-size: 2.5rem;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-1 .container .description h2 {
     color: rgb(255, 149, 11);
     text-align: center;
@@ -219,7 +219,7 @@ html {
   color: rgb(36, 40, 54);
   gap: 20px;
 }
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-1 .container .description h2 span {
     display: flex;
     color: rgb(36, 40, 54);
@@ -249,7 +249,7 @@ html {
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 1px 0px 0px inset;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-1 .container .description h2 span .anime {
     display: inline-block;
     position: relative;
@@ -303,7 +303,7 @@ html {
   padding: 2rem 0rem;
   display: flex;
 }
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-1 .container .description .btn-box {
     width: 100%;
     padding: 2rem 0rem;
@@ -365,7 +365,7 @@ html {
   z-index: 10;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-1 .container .img-box {
     background-color: rgb(2, 19, 38);
     height: 22rem;
@@ -407,7 +407,7 @@ html {
   margin: auto;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .second-section .container {
     background-color: rgb(255, 149, 11);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -514,7 +514,7 @@ html {
   grid-template-columns: repeat(2, 1fr);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .third-section .container .inbox .details {
     display: grid;
     grid-template-columns: none;
@@ -784,7 +784,7 @@ html {
   padding-top: 7rem;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-four .container h1 {
     text-align: center;
     padding-top: 2rem;
@@ -813,13 +813,13 @@ html {
   border-radius: 10px;
   overflow: hidden;
 }
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-four .container .grid4box .exa-box {
     position: relative;
     display: flex;
     justify-content: center;
   }
-  @media (max-width: 720px) {
+  @media (max-width: 480px) {
     .circle,
     .line {
       display: none;
@@ -954,7 +954,7 @@ html {
   height: 100%;
   gap: 3.5rem;
 }
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-five .container .grid4box {
     justify-content: center;
     display: flex;
@@ -1063,7 +1063,7 @@ html {
   grid-template-columns: repeat(2, 1fr);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-six .container .grid2box {
     display: grid;
     grid-template-columns: none;
@@ -1113,7 +1113,7 @@ html {
   grid-template-columns: repeat(2, 1fr);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-seven .container .grid2box {
     display: grid;
     grid-template-columns: none;
@@ -1176,7 +1176,7 @@ html {
 
   padding-top: 2.5rem;
 }
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-eight .container .grid2box {
     display: grid;
     grid-template-columns: none;
@@ -1316,7 +1316,7 @@ html {
   grid-template-columns: repeat(3, 1fr);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 480px) {
   .section-nine .container .grid3box {
     display: grid;
     grid-template-columns: none;
@@ -1460,7 +1460,7 @@ html {
   transition: 0.5s;
 }
 
-@media(max-width:720px){
+@media(max-width:480px){
   .section-nine .container .grid3box .box-three .gridtwobox .text-btn {
     height: 3rem;
   }

@@ -814,6 +814,16 @@ html {
   overflow: hidden;
 }
 @media (max-width: 480px) {
+  .section-four .container .grid4box .exa-box .box {
+      position: relative;
+      background: rgb(254, 255, 255);
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 19px 20px;
+     
+  }
+}
+@media (max-width: 480px) {
   .section-four .container .grid4box .exa-box {
     position: relative;
     display: flex;
@@ -831,8 +841,7 @@ html {
     background: rgb(254, 255, 255);
     border-radius: 10px;
     overflow: hidden;
-    padding: 19px 20px;
-    width: 400px;
+    padding: 6px 20px;
   }
 }
 .section-four .container .grid4box .exa-box .line {
@@ -1226,7 +1235,7 @@ html {
 .section-eight .container .grid2box .form input,
 .section-eight .container .grid2box .form .textarea {
   height: 2.5rem;
-  width: 23rem;
+  width: 21rem;
   border-radius: 10px;
   padding: 1rem;
   color: rgb(16, 17, 17);

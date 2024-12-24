@@ -126,6 +126,22 @@ html {
 
 /* .section-1 */
 
+@keyframes anim{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+.second-section .container {
+  animation: anim linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
 .section-1 .container {
   display: flex;
   flex-direction: row;
@@ -502,6 +518,11 @@ html {
 
 /* third section */
 
+.third-section .container {
+  animation: anim linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
 .third-section{
   background: rgb(254, 255, 255);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -773,6 +794,11 @@ html {
 
 /* section-four */
 
+.section-four .container {
+  animation: anim linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
 .section-four {
   background-color: rgb(255, 149, 11);
   padding: 30px 0px;
@@ -961,6 +987,11 @@ html {
 
 /* section-five */
 
+.section-five .container {
+  animation: anim linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
 .section-five{
   padding: 50px 0px;
 }
@@ -1074,6 +1105,11 @@ html {
 
 /* section six  */
 
+.section-six .container {
+  animation: anim linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
 .section-six{
   background-color: rgb(255, 149, 11);
   padding: 20px 0px;
@@ -1124,6 +1160,11 @@ html {
 /* section-seven */
 
 
+.section-seven .container {
+  animation: anim linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
 .section-seven{
   padding: 40px 0px;
 }
@@ -1191,6 +1232,12 @@ html {
 }
 
 /* section eight */
+
+.section-eight .container {
+  animation: anim linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
 .section-eight
 {
   background-color: rgb(255, 149, 11);
